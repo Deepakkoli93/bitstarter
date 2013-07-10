@@ -8,7 +8,7 @@ app.get('/', function(request, response) {
  //buf = fs.readFileSync('index.html');
 
  // response.send(buf.toString("utf-8",0,27));
- response.send(<!DOCTYPE html>
+ response.send("<!DOCTYPE html>
 <html lang="en">
  <head>
  	<meta charset="utf-8">
@@ -110,7 +110,7 @@ div.row{
 	</div>
  </div>
  </body>
-</html>
+</html>"
 
 
 
