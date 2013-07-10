@@ -9,7 +9,7 @@ app.get('/', function(request, response) {
 
  // response.send(buf.toString("utf-8",0,27));
  //response.send(index.html);
- render("index.html");
+ response.render("index.html");
 });
 
 /*app.get("/", function(req, res) {
